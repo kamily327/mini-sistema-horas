@@ -1,9 +1,9 @@
 const body = document.body
 let content = document.querySelector('.content-msg')
-var res = document.querySelector('.res');
-var img = document.getElementById('img');
-var d = new Date();
-var horas = d.getHours();
+let res = document.querySelector('.res');
+let img = document.getElementById('img');
+let d = new Date();
+let horas = d.getHours();
 
 if(horas >= 0 && horas <= 4){
     res.innerHTML = ('Boa Madrugada !')
