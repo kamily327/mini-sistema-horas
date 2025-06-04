@@ -1,8 +1,8 @@
 const body = document.body
-let content = document.querySelector('.content-msg')
-let res = document.querySelector('.res');
-let img = document.getElementById('img');
-let d = new Date();
+const content = document.querySelector('.content-msg')
+const res = document.querySelector('.res');
+const img = document.getElementById('img');
+const d = new Date();
 let horas = d.getHours();
 
 if(horas >= 0 && horas <= 4){
